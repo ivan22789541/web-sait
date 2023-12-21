@@ -1,0 +1,20 @@
+.slider_menu_item {
+    margin: 0 15px 0 15px;
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.name_menu {
+    width: 100%;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 1.61px;
+    width: 100%;
+    padding-right: 34px;
+    opacity: 0.78;
+}

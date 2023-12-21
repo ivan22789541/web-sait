@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px ;
+}

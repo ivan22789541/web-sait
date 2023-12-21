@@ -1,0 +1,16 @@
+#input {
+    width: 328px;
+    height: 44px;
+    flex-shrink: 0;
+    border: 0.5px solid #DADADA;
+    margin-bottom: 8px;
+    display: flex;
+    text-align: center;
+    color: #959595;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 200% */
+    letter-spacing: 1.38px;
+}

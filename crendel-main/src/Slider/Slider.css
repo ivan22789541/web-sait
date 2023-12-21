@@ -1,0 +1,38 @@
+.container_block {
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    margin-top: 5px;
+    background: #423831;
+    width: 100%;
+    height: 208px;
+
+}
+
+.container_eclipse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    background: #fff;
+    border-radius: 50%;
+    width: 147px;
+    height: 147px;
+}
+
+.container_txt {
+    margin-left: 15px;
+    width: 190px;
+    color: #FFF;
+    font-family: B52;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.5px; /* 109.375% */
+    letter-spacing: 1.44px;
+}
+
+.slider {
+    display: flex;
+    overflow-x: scroll;
+}

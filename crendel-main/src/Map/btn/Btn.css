@@ -1,0 +1,24 @@
+.btn_map {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_map button {
+    cursor: pointer;
+    width: 137px;
+    height: 31px;
+    border: 1px solid #423831;
+    background: none;
+}
+
+.txt_btn {
+    color: #423831;
+    font-family: Montserrat;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 218.182% */
+    letter-spacing: 1.265px;
+    text-align: center;
+    margin: 0;
+}

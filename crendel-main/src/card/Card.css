@@ -1,0 +1,25 @@
+.card_cont {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_cont {
+    width: 154px;
+    height: 154px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #DBD7D3;
+}
+
+.card_name {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 1.61px;
+    margin: 15px 0 0 0;
+}

@@ -1,0 +1,73 @@
+.card_menu {
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 164px;
+    height: 229px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16);
+}
+
+.card_menu img {
+    margin: 0;
+    width: 80px;
+    height: 159px;
+}
+
+.card_menu p {
+    color: #423831;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12.5px;
+    letter-spacing: 0.7px;
+}
+
+.card_menu p1 {
+    color: #423831;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.84px;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+
+.min {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27px;
+    height: 27px;
+    background: #423831;
+    border-radius: 5px;
+}
+
+.sum {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27px;
+    height: 27px;
+    background: #423831;
+    border-radius: 5px;
+}
+
+.min img {
+    position: absolute;
+    width: 10px;
+}
+
+.sum img {
+    position: absolute;
+    width: 10px;
+}
