@@ -25,8 +25,8 @@ const Menu = sequelize.define('menu', {
 })
 
 const Type = sequelize.define('type', {
-    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
-    name: { type: DataTypes.INTEGER, unique: true, allowNull: false },
+    id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true},
+    name: {type: DataTypes.STRING, unique: true, allowNull: false},
 })
 
 const MenuInfo = sequelize.define('menu_info', {
