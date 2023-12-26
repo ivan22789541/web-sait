@@ -1,5 +1,5 @@
 const sequelize = require('../db')
-const { DataTypes } = require('sequelize')
+const {DataTypes} = require('sequelize')
 
 const User = sequelize.define('user', {
     id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
@@ -25,8 +25,8 @@ const Menu = sequelize.define('menu', {
 })
 
 const Type = sequelize.define('type', {
-    id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true},
-    name: {type: DataTypes.STRING, unique: true, allowNull: false},
+    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
+    name: { type: DataTypes.STRING, unique: true, allowNull: false },
 })
 
 const MenuInfo = sequelize.define('menu_info', {
@@ -47,14 +47,14 @@ Menu.belongsTo(Type)
 Menu.hasMany(BasketMenu)
 BasketMenu.belongsTo(Menu)
 
-Menu.hasMany(MenuInfo)
+Menu.hasMany(MenuInfo, {as: 'info'})
 MenuInfo.belongsTo(Menu)
 
 module.exports = {
-    User, 
-    Basket, 
-    BasketMenu, 
-    Menu, 
-    Type, 
+    User,
+    Basket,
+    BasketMenu,
+    Menu,
+    Type,
     MenuInfo
 }
