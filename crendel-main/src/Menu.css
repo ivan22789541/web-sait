@@ -14,3 +14,10 @@ body {
     justify-content: center;
     margin-top: 10px ;
 }
+
+.card_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}

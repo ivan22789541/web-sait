@@ -15,7 +15,13 @@ function Menu() {
                 <InputSearch placeholder={'Поиск'} type={'text'} />
             </div>
             <Slidermenuitem />
-            <Cardmenu />
+            <div className="card_item">
+                <Cardmenu />
+                <Cardmenu />
+                <Cardmenu />
+                <Cardmenu />
+            </div>
+
         </>
 
     )
