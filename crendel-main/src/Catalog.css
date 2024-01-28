@@ -1,0 +1,84 @@
+.card_catalog {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    width: 363px;
+    height: 447px;
+}
+
+.img_catalog {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 157px;
+    height: 190px;
+}
+
+.txt_max {
+    display: flex;
+    justify-content: center;
+    color: #423831;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.txt_min {
+    color: #423831;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.number_min {
+    color: #717171;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    /* 240% */
+    letter-spacing: 0.7px;
+}
+
+.btn_catalog {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 1.61px;
+    background: #423831;
+    border: none;
+    width: 114px;
+    height: 43px;
+}
+
+.price {
+    margin-left: 33px;
+    color: #423831;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 184.615% */
+    letter-spacing: 0.91px;
+}
